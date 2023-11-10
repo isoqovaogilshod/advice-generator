@@ -67,34 +67,37 @@ p {
 .mobile {
   display: none;
 }
-
-@media screen  and (max-width:600px){
-    .card{
-        width: 470px;
-    }
-    .desktop{
-        display: none;
-    }
-    .mobile{
-        display: flex;
-        justify-content: center;
-        margin:  0 auto;
-        margin-top: 40px;
-    }
+.attribution {
+  width: 500px;
 }
 
-@media screen and (max-width:520px) {
-    .card{
-        width: 420px;
-    }
+@media screen and (max-width: 600px) {
+  .card {
+    width: 470px;
+  }
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
 }
 
-@media screen  and (max-width:420px){
-    .card{
-        width: 330px;
-    }
+@media screen and (max-width: 520px) {
+  .card {
+    width: 420px;
+  }
+}
 
-    .mobile{
-        max-width: 234px;
-    }
+@media screen and (max-width: 420px) {
+  .card {
+    width: 330px;
+  }
+
+  .mobile {
+    max-width: 234px;
+  }
 }
