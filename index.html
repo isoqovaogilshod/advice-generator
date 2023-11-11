@@ -33,11 +33,16 @@
   <body>
     <div class="display">
       <div class="card">
-        <h3>Advice # <span></span></h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos,
-          eum.
-        </p>
+        <h3>Advice # <span id="adviceNumber"></span></h3>
+        <h4 id="loading">
+          <img
+            style="margin-top: 30px"
+            src="https://media.tenor.com/t5DMW5PI8mgAAAAi/loading-green-loading.gif"
+            alt=""
+            width="100px"
+          />
+        </h4>
+        <p class="hide" id="advice"></p>
         <img
           src="./images/pattern-divider-desktop.svg"
           class="desktop"
@@ -46,7 +51,7 @@
         <img src="./images/pattern-divider-mobile.svg" class="mobile" alt="" />
       </div>
       <button class="icon">
-        <img src="./images/./icon-dice.svg" alt="" />
+        <img id="iconImg" src="./images/./icon-dice.svg" alt="" />
       </button>
 
       <div class="attribution">
